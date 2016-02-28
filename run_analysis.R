@@ -6,8 +6,7 @@
 # 4. Appropriately labels the data set with descriptive activity names.
 # 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-# set working directory
-setwd("~/Google Drive/Coursera/03_getting_cleaning_data/course project")
+# assumes working directory is already set
 
 ## DOWNLOAD & UNZIP DATA (this assumes data has not previously been obtained)
 # download data
