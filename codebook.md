@@ -22,7 +22,7 @@ The following files from the original data are used by the R script:
 - test/X_test.txt
 - test/y_test.txt
 - test/subject_test.txt
-- 
+
 Further info about these files can be found in the README file contained in the above referenced zip file.
 
 ## Transformation details
