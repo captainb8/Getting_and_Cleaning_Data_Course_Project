@@ -80,7 +80,7 @@ FinalDataAvg <- aggregate(. ~subject + activity, FinalData, mean)
 # sort it by subject and activity
 FinalDataAvg <- FinalDataAvg[order(FinalDataAvg$subject,FinalDataAvg$activity),]
 # output it to a csv file
-write.csv(FinalDataAvg, file = "FinalDataAvg.csv")
+write.table(FinalDataAvg, file = "FinalDataAvg.txt", row.name = FALSE)
 
 
 ## CLEANUP, LEAVING ONLY FINAL DATA SETS
