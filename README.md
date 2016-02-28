@@ -1,6 +1,6 @@
 # Getting and Cleaning Data Course Project
 
-This repo contains one R scipt which performs the following tasks:
+This repo contains one R scipt (run_analysis.R) which performs the following tasks, after downloading and unzipping the necessary data:
 
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
