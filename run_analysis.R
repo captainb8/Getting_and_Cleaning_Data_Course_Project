@@ -78,10 +78,5 @@ names(FinalData)<-gsub("BodyBody", "Body", names(FinalData))
 FinalDataAvg <- aggregate(. ~subject + activity, FinalData, mean)
 # sort it by subject and activity
 FinalDataAvg <- FinalDataAvg[order(FinalDataAvg$subject,FinalDataAvg$activity),]
-# output it to a txt file
+# output tidy data set to a txt file
 write.table(FinalDataAvg, file = "FinalDataAvg.txt", row.name = FALSE)
-
-
-## CLEANUP, LEAVING ONLY FINAL DATA SETS
-rm(list = setdiff(ls(), ls(pattern = "Final")))
-
