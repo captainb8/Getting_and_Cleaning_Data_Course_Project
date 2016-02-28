@@ -12,7 +12,7 @@
 # download data
 fileURL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 download.file(fileURL, "dataset.zip", method="curl")
-#uzip, if not already
+#unzip file
 unzip("dataset.zip")
 
 
